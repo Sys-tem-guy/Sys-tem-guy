@@ -1,58 +1,159 @@
-# Hi, I'm Rahul 👋
-### Docs Engineer & Developer Experience (DX) Specialist
+# Rahul Thakur
 
-I build **Docs-as-Code workflows, contract-first API ecosystems, and resilient developer onboarding experiences**. Rather than treating documentation as static text, I treat it as production software—tested in CI/CD, governed by automated linters, and engineered for sub-5-minute time-to-first-call.
+## DevOps / Cloud Engineering
 
----
+I'm building toward a career in **DevOps and Cloud Engineering**, with a hands-on focus on infrastructure, automation, software delivery, and reliability.
 
-## 🛠️ Flagship Portfolio Projects
+My current learning path:
 
-### 1. [Event Ingestion Quickstart & Throttling Resilience](https://github.com/Sys-tem-guy/event-ingest-quickstart)
-> **Focus:** Developer Onboarding, Client Resilience, and Automated Docs Testing  
-> **Stack:** Python 3.10+, RFC 6585 (HTTP 429), Requests, GitHub Actions CI, Diátaxis Framework
+**Linux → Networking → Git → CI/CD → Docker → AWS → Terraform → Kubernetes → Observability**
 
-* **Rapid Time-to-First-Call:** Designed a task-oriented quickstart enabling developers to dispatch batch telemetry payloads within 5 minutes, enforcing Twelve-Factor environment variable consumption and fail-fast credentials validation.
-* **Full Jitter Exponential Backoff:** Built an idiomatic retry engine implementing uniform random jitter ($\text{sleep} = \text{uniform\_random}(0, \text{ceiling})$) and dynamic `Retry-After` header precedence, preventing thundering herd stampedes during gateway rate-limiting.
-* **Continuous Documentation Testing:** Engineered a GitHub Actions CI workflow executing sample code against live mock endpoints on every commit to eliminate documentation drift.
+I learn by building systems, breaking them deliberately, diagnosing failures, and documenting how they work.
 
 ---
 
-### 2. Modular OpenAPI 3.1 & Idempotency Architecture
-> **Focus:** API Governance, Contract-First Design, and Schema Linting  
-> **Stack:** OpenAPI Specification 3.1, Spectral CI, JSON Schema, Git
+## 🚧 Current Focus
 
-* **Modular Contract Design:** Architected reusable, decoupled OpenAPI components with external `$ref` pointers to ensure clean versioning and team-wide reusability.
-* **Automated Governance:** Enforced naming standards, security schemes, and error payload consistency across teams using automated Spectral CI linting rulesets.
-* **Distributed Idempotency:** Authored clear developer guides and state machine documentation detailing idempotency-key lifecycles, replay behavior, and race-condition prevention in distributed transaction systems.
+- Linux system administration
+- Networking fundamentals
+- Git and GitHub workflows
+- CI/CD with GitHub Actions
+- Docker and containerization
+- AWS cloud infrastructure
+- Infrastructure as Code with Terraform
+- Kubernetes
+- Monitoring and observability
+- Python and Bash automation
 
----
-
-## 📐 Technical Competencies
-
-```text
-┌───────────────────────────┬───────────────────────────┬───────────────────────────┐
-│     Docs-as-Code & CI     │       API Contracts       │    Developer Experience   │
-├───────────────────────────┼───────────────────────────┼───────────────────────────┤
-│ • GitHub Actions CI/CD    │ • OpenAPI 3.0 / 3.1       │ • Time-to-First-Call Opt. │
-│ • Spectral Linting        │ • JSON Schema Draft 2020  │ • Client Retry Algorithms │
-│ • Git Workflows & PRs     │ • RESTful Best Practices  │ • Distributed Throttling  │
-│ • Markdown / MDX          │ • HTTP Status Mechanics   │ • Error State Design      │
-│ • Static Site Generators  │ • Idempotency Keys (UUID) │ • Sample Code Testing     │
-└───────────────────────────┴───────────────────────────┴───────────────────────────┘
-```
+The goal is not to collect certificates or reproduce tutorials. Each project is built to demonstrate a concrete operational capability.
 
 ---
 
-## 🧭 How I Approach DX & Documentation
+## 🛠️ Projects
 
-1. **Test Every Snippet:** Code samples in documentation must be executed and validated in CI to ensure zero drift between software updates and guide text.
-2. **Design for the Failure Path:** Most guides only document `200 OK`. Great DX documents `429 Too Many Requests`, connection timeouts, and state recovery so client integrations don't fail in production.
-3. **Task-Oriented Structure:** Using frameworks like Diátaxis to strictly separate Tutorials, How-To Guides, Technical References, and Conceptual Explanations.
+### DevOps Projects — In Progress
+
+I'm currently building a series of progressively more production-oriented projects:
+
+1. **Linux Application Deployment**
+   - Linux server administration
+   - SSH and systemd
+   - Networking and firewall configuration
+   - Manual application deployment
+   - Logs and troubleshooting
+
+2. **CI/CD Deployment Pipeline**
+   - GitHub Actions
+   - Automated testing
+   - Build and deployment automation
+   - Secrets and environment configuration
+   - Deployment verification and rollback
+
+3. **Containerized Cloud Deployment**
+   - Docker
+   - AWS
+   - Infrastructure as Code with Terraform
+   - Application networking
+   - Monitoring and failure recovery
+
+4. **Kubernetes & Observability**
+   - Kubernetes deployments
+   - Services and ingress
+   - Health probes
+   - Resource management
+   - Monitoring
+   - Failure injection and recovery
 
 ---
 
-## 📬 Connect With Me
+## 🔬 Previous Engineering Work
 
-* **GitHub:** [@Sys-tem-guy](https://github.com/Sys-tem-guy)
-* **Target Roles:** API Technical Writer | Docs Engineer | Developer Experience (DX) Engineer
-* **Open to:** Full-time, Remote, and Contract Opportunities
+Before moving into DevOps, I built projects around APIs, reliability, and automated software workflows.
+
+### [Event Ingestion Quickstart & Throttling Resilience](https://github.com/Sys-tem-guy/event-ingest-quickstart)
+
+A Python-based API integration project covering:
+
+- HTTP 429 rate limiting
+- Exponential backoff with full jitter
+- Retry-After handling
+- Failure-path design
+- GitHub Actions CI
+- Tested API integration examples
+
+### [Modular OpenAPI 3.1 & Idempotency Architecture](https://github.com/Sys-tem-guy/Idempotency-key)
+
+A contract-first API engineering project covering:
+
+- Modular OpenAPI 3.1 contracts
+- Reusable schema components
+- Spectral CI linting
+- GitHub Actions automation
+- Idempotency-key state handling
+- Distributed transaction failure scenarios
+
+### [API Integration Lab](https://github.com/Sys-tem-guy/api-integration-lab)
+
+A hands-on GitHub REST API integration lab covering:
+
+- API authentication
+- HTTP requests and responses
+- Error diagnosis
+- 404 failure reproduction
+- Rate-limit inspection
+- curl and Postman workflows
+
+---
+
+## ⚙️ Technology
+
+**Infrastructure**
+Linux • AWS • Terraform
+
+**Containers & Orchestration**
+Docker • Kubernetes
+
+**CI/CD**
+GitHub Actions • Git
+
+**Automation**
+Python • Bash
+
+**Networking & APIs**
+TCP/IP • DNS • HTTP/HTTPS • REST • OpenAPI
+
+---
+
+## 🧠 Engineering Approach
+
+### Build, break, recover
+
+I deliberately test failure paths instead of stopping at the happy path.
+
+### Automate repeatable work
+
+If a deployment, test, or infrastructure change can be reproduced reliably, it should be automated.
+
+### Infrastructure should be explainable
+
+Every project should make its architecture, configuration, deployment process, and operational trade-offs understandable.
+
+### Evidence over claims
+
+I use working projects, automation, failure tests, and reproducible configurations as evidence of what I can actually do.
+
+---
+
+## 🎯 Career Direction
+
+**DevOps / Cloud Engineering**
+
+Currently focused on building the practical foundation required for junior DevOps and cloud engineering roles.
+
+---
+
+## 📫
+
+**GitHub:** [@Sys-tem-guy](https://github.com/Sys-tem-guy)
+
+Open to **entry-level DevOps / Cloud Engineering opportunities**.
