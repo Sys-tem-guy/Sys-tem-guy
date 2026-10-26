@@ -1,21 +1,22 @@
 # Hi, I'm Rahul (@Sys-tem-guy) 👋
 
-Platform & Systems Engineer focused on Linux internals, container platforms, cloud infrastructure automation, and resilient backend systems.
+Platform & Systems Engineer specializing in Linux internals, container runtimes, declarative cloud architecture, and resilient distributed platforms.
 
 ---
 
-### 🛠 Engineering Labs & Platforms
+### 🛠️ Production Engineering Matrix
 
-| Domain | Repository | Tech Stack | Status |
+| Domain | Platform / Lab | Core Technologies | Status |
 | :--- | :--- | :--- | :--- |
-| **Backend & APIs** | [go-ops-service](https://github.com/Sys-tem-guy/go-ops-service) | Go, Docker, HTTP API | Active |
-| **Distributed Systems** | [idempotency-key](https://github.com/Sys-tem-guy/idempotency-key) | Distributed Patterns, Go | Active |
-| **Cloud Infrastructure** | [aws-cloud-platform](https://github.com/Sys-tem-guy/aws-cloud-platform) | AWS, LocalStack, OpenTofu | Active |
-| **Container Platforms** | [container-platform](https://github.com/Sys-tem-guy/container-platform) | Docker Compose, Nginx | Active |
-| **Production Git & CI** | [production-workflow-lab](https://github.com/Sys-tem-guy/production-workflow-lab) | Git Workflows, Case Study | Active |
-| **Systems Engineering** | [linux-service-platform](https://github.com/Sys-tem-guy/linux-service-platform) | Linux, systemd, Bash | Completed |
-| **Platform Networking** | [docker-multi-tier-networking-lab](https://github.com/Sys-tem-guy/docker-multi-tier-networking-lab) | Docker Networks, DNS, Proxies | Completed |
+| **Infrastructure as Code** | [terraform-platform](https://github.com/Sys-tem-guy/terraform-platform) | OpenTofu, AWS, HCL, LocalStack | Active |
+| **Cloud Infrastructure** | [aws-cloud-platform](https://github.com/Sys-tem-guy/aws-cloud-platform) | AWS CLI, Moto Emulator, VPC, Subnets | Active |
+| **Container Platform** | [container-platform](https://github.com/Sys-tem-guy/container-platform) | Docker Compose, Nginx Gateway, SELinux | Active |
+| **Backend & APIs** | [go-ops-service](https://github.com/Sys-tem-guy/go-ops-service) | Go, Docker, HTTP Health Probes, Alpine | Active |
+| **Distributed Reliability** | [idempotency-key](https://github.com/Sys-tem-guy/idempotency-key) | Distributed Patterns, Go, Deduplication | Active |
+| **Production Git & SRE** | [production-workflow-lab](https://github.com/Sys-tem-guy/production-workflow-lab) | Trunk-Based CI, Fast-Forward, POSIX Bits | Active |
+| **Systems Engineering** | [linux-service-platform](https://github.com/Sys-tem-guy/linux-service-platform) | Linux, systemd Self-Healing, SELinux | Completed |
+| **Container Networking** | [docker-multi-tier-networking-lab](https://github.com/Sys-tem-guy/docker-multi-tier-networking-lab) | Docker Bridge, DNS, Reverse Proxy | Completed |
 
 ---
 
-*Writing about platform architecture, automation, and reliability.*
+*Writing about platform reliability, infrastructure automation, and systems architecture.*
